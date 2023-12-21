@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "minesweeper"
+version = "0.1.0"
+description = "Minesweeper clone"
+authors = ["Leevi Kokkinen <leevi.kokkinen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.5.2"
+invoke = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+autopep8 = "^2.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
